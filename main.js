@@ -57,7 +57,7 @@ function displayProducts(page) {
 		// Click even to go to product-detail
 		productElement.addEventListener("click", () => {
 			localStorage.setItem("selectedProduct", JSON.stringify(product));
-			window.location.href = "product-detail.html";
+			window.location.href = "product_detail.html";
 		});
 
 		productElement.appendChild(productImage);
