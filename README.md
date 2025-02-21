@@ -51,7 +51,9 @@ Resources
 You have been provided with three options to choose from: 
 
 • Rainy Days API - Outdoor clothing 
+
 • GameHub API - Video games 
+
 • Square Eyes API – Movies 
 
 The documentation website for each endpoint explains which options are available 
