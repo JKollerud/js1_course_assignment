@@ -19,6 +19,7 @@ User Stories
 - As a user, I want to view an order-confirmation screen after checking out.
 
 Required Pages 
+
 The following pages are required to complete this assignment. 
 - Home Page containing product list `/index.html`
 - Product Page showing all details of a specific product `/product/index.html`
@@ -26,6 +27,7 @@ The following pages are required to complete this assignment.
 - Confirmation Page showing a thank you message `/checkout/confirmation/index.html`
 
 Optional Pages 
+
 The following pages are not required to complete this assignment but help to 
 improve the realism for those with extra time. 
 - Category Pages (e.g. Male/Female Clothing, Movie Genres)
@@ -34,6 +36,7 @@ improve the realism for those with extra time.
 - My Profile
 
 Process 
+
 1. Decide if you will use your existing project, or a fresh project. 
 2. Open your project in GitHub Desktop and VS Code. 
 3. Select one of the three provided endpoints from the list below. 
