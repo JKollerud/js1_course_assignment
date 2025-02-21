@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Checkout</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<script src="checkout.js" defer></script>
+		<script src="details.js" defer></script>
+		<script src="https://kit.fontawesome.com/3f2533518e.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Checkout</h1>
+		</header>
+		<main>
+			<div id="cart-container">
+			</div>
+			<div id="cart-summary">
+				<p>
+					Total: $
+					<span id="total-price">0.00</span>
+				</p>
+				<button id="checkout-button">Proceed to Checkout</button>
+			</div>
+			<div class="details_button">
+				<button class="back-button" onclick="window.location.href='index.html'">Continue Shopping</button>
+			</div>
+		</main>
+	</body>
+</html>

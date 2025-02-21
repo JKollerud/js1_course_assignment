@@ -1,0 +1,37 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Page</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<script src="cart.js" defer></script>
+		<script src="details.js" defer></script>
+		<script src="https://kit.fontawesome.com/3f2533518e.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<h1>RainyDays</h1>
+			<div class="shopping_cart">
+				<button id="view-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+			</div>
+		</header>
+		<div class="headliner">
+			<h1>Rainy Days Products</h1>
+		</div>
+		<div id="filter-container">
+			<label for="gender-filter">Filter Jackets:</label>
+			<select id="gender-filter">
+				<option value="">All Jackets</option>
+				<option value="Female">Female Jackets</option>
+				<option value="Male">Male Jackets</option>
+			</select>
+		</div>
+		<div id="products-container"></div>
+		<div id="pagination">
+			<button id="prev-page">Previous</button>
+			<span id="page-indicator">1/4</span>
+			<button id="next-page">Next</button>
+		</div>
+	</body>
+</html>
