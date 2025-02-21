@@ -43,7 +43,9 @@ Process
 8. Make any final changes and submit for delivery.
 
 Resources 
+
 You have been provided with three options to choose from: 
+
 • Rainy Days API - Outdoor clothing 
 • GameHub API - Video games 
 • Square Eyes API – Movies 
@@ -54,6 +56,7 @@ in your application. You are only required to select one of the endpoints but if
 wish to implement more than one that will be accepted 
 
 Important Features 
+
 This list is a non-exhaustive list of important things to keep in mind before delivery: 
 
 • Errors should be handled for the user, such that they are alerted when something 
@@ -73,6 +76,7 @@ be marked as if the coding was not done.
 • Remove all console.log statements before delivery. 
 
 Delivery 
+
 • GitHub repository with JavaScript code in the default (main/master) branch 
 
 • Written reflection on the CA process
